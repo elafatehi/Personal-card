@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(233, 149, 231);
+}
+.container{
+    width: 600px;
+    height: 360px;
+    margin: 100px auto;
+    box-shadow: 0 0 40px blueviolet;
+    border-radius: 10px 25px 10px 25px;
+    position: relative;
+}
+.card{
+    width: 220px;
+    height: 360px;
+    position: absolute;
+    right:30px ;
+    top: -30px;
+    box-shadow: 0 0 40px blueviolet;
+    border-radius: 10px 25px 10px 25px;
+    overflow: hidden;
+}
+.pic{
+    width: 100%;
+}
+.bio{
+    width: 300px;
+    position: absolute;
+    left: 30px;
+    height: 300px;
+    text-align: justify;
+    top: 30px;
+}
+.card p{
+    padding-right: 5px;
+    margin: 4px;
+}
